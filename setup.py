@@ -75,7 +75,7 @@ class MakePass:
 
         while True:
 
-            message_dialog(title="Password Selection",text="Create a strong password.\nAlphanumeric characters with a length of 16.")
+            message_dialog(title="Password Selection",text="Create a strong password.\nAt least 1 number and 1 special character with a length of 16.")
             passwd_1 = input_dialog(title='Password Selection',text='Enter Master Password',password=True)
 
             if passwd_1 == None:
